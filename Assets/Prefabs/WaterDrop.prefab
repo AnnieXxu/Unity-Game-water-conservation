@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 8548901391308166240}
   - component: {fileID: 8548901391308166244}
   - component: {fileID: 8548901391308166171}
+  - component: {fileID: -3917755532729580577}
   m_Layer: 4
   m_Name: WaterDrop
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112,7 +113,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!96 &8548901391308166171
 TrailRenderer:
   serializedVersion: 2
@@ -238,3 +239,15 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &-3917755532729580577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8548901391308166241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb143f033c3a21641bc703a2190b1be5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

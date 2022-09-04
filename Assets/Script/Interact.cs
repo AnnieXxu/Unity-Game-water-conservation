@@ -30,7 +30,7 @@ public class Interact : MonoBehaviour
             crossHair.SetActive(true);
             cursor.SetActive(false);
         }
-        
+ 
     }
 
     private void EmissionRay()

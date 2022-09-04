@@ -9,4 +9,9 @@ public class LoadingGame : MonoBehaviour
     {
         Application.LoadLevel("MainScene");
     }
+
+    public void exitGame()
+    {
+        Application.Quit();
+    }
 }
